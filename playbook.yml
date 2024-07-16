@@ -1,0 +1,6 @@
+---
+- name: Install and Configure httpd Server
+  hosts: web_servers
+  become: yes
+  roles:
+    - httpd
